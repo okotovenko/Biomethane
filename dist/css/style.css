@@ -771,7 +771,7 @@ body {
   }
 
   .header__logo {
-    width: 9.5625rem;
+    width: 10.4375rem;
   }
 
   .header__content h1 {
@@ -1493,15 +1493,15 @@ body {
     }
 }
 
-@supports (width: clamp( 8.75rem , 8.4734042553rem  +  1.3829787234vw , 9.5625rem )) {
+@supports (width: clamp( 8.75rem , 8.1755319149rem  +  2.8723404255vw , 10.4375rem )) {
     .header__logo {
-      width: clamp( 8.75rem , 8.4734042553rem  +  1.3829787234vw , 9.5625rem );
+      width: clamp( 8.75rem , 8.1755319149rem  +  2.8723404255vw , 10.4375rem );
     }
 }
 
-@supports not (width: clamp( 8.75rem , 8.4734042553rem  +  1.3829787234vw , 9.5625rem )) {
+@supports not (width: clamp( 8.75rem , 8.1755319149rem  +  2.8723404255vw , 10.4375rem )) {
     .header__logo {
-      width: calc(8.75rem + 0.8125 * (100vw - 20rem) / 58.75);
+      width: calc(8.75rem + 1.6875 * (100vw - 20rem) / 58.75);
     }
 }
 
