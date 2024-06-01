@@ -254,11 +254,6 @@ body {
   font-weight: 600;
 }
 
-.header__left h1 {
-  width: 100%;
-  max-width: 29.375rem;
-}
-
 .header__logo > img,
 .header__logo > picture {
   width: 100%;
@@ -276,10 +271,12 @@ body {
 }
 
 .header__content h1 {
+  width: 100%;
+  max-width: 29.375rem;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: 700;
-  line-height: 120%;
+  line-height: 1.2em;
 }
 
 .header__content h1 span {
@@ -317,7 +314,7 @@ body {
   max-width: 22.5rem;
   font-weight: 400;
   color: #ffffff;
-  line-height: 120%;
+  line-height: 1.2222222222em;
 }
 
 .header__right > img,
@@ -361,7 +358,7 @@ body {
 .footer__content p {
   text-align: left;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 1.2em;
   color: #ffffff;
   width: 100%;
   max-width: 37.5rem;
@@ -402,13 +399,14 @@ body {
 
 .process__item h3 {
   font-weight: 500;
+  line-height: 1.2em;
 }
 
 .process__item p {
   font-size: 14px;
   font-weight: 500;
   color: #878787;
-  line-height: 120%;
+  line-height: 1.2142857143em;
 }
 
 .process__img > img,
@@ -467,7 +465,7 @@ body {
 .partnerships__container h4 {
   font-weight: 500;
   text-align: left;
-  line-height: 120%;
+  line-height: 1.2em;
 }
 
 .partnerships__top {
@@ -504,6 +502,7 @@ body {
 .partnerships__subtitle {
   font-weight: 500;
   text-align: left;
+  line-height: 1.2083333333em;
 }
 
 .partnerships__center {
@@ -576,7 +575,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  line-height: 120%;
+  line-height: 1.1875em;
 }
 
 .partnerships__text {
@@ -609,7 +608,7 @@ body {
 .partnerships__text p {
   font-weight: 400;
   text-align: left;
-  line-height: 120%;
+  line-height: 1.2222222222em;
 }
 
 .partnerships__bottom {
@@ -629,6 +628,7 @@ body {
   font-weight: 500;
   display: inline-block;
   text-align: left;
+  line-height: 1.2222222222em;
 }
 
 .partnerships__items {
@@ -680,7 +680,7 @@ body {
 
 .partnerships__item p {
   font-size: 1rem;
-  line-height: 120%;
+  line-height: 1.1875em;
   text-align: left;
 }
 
@@ -715,6 +715,7 @@ body {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  line-height: 1.2083333333em;
 }
 
 .emerging__container {
@@ -734,7 +735,7 @@ body {
   font-weight: 600;
   position: relative;
   display: inline-block;
-  line-height: 120%;
+  line-height: 1.2em;
   width: 100%;
   max-width: 22.5rem;
 }
@@ -755,7 +756,7 @@ body {
   text-align: left;
   width: 100%;
   max-width: 47.5rem;
-  line-height: 120%;
+  line-height: 1.2083333333em;
 }
 
 @media (min-width: 77.5em) {
@@ -1339,12 +1340,9 @@ body {
             justify-content: center;
   }
 
-  .header__left h1 {
-    max-width: 100%;
-  }
-
   .header__content h1 {
     margin-bottom: 0;
+    max-width: 100%;
   }
 
   .header__box {
