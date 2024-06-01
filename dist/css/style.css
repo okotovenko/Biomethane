@@ -254,6 +254,11 @@ body {
   font-weight: 600;
 }
 
+.header__left h1 {
+  width: 100%;
+  max-width: 29.375rem;
+}
+
 .header__logo > img,
 .header__logo > picture {
   width: 100%;
@@ -403,6 +408,7 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: #878787;
+  line-height: 120%;
 }
 
 .process__img > img,
@@ -749,6 +755,7 @@ body {
   text-align: left;
   width: 100%;
   max-width: 47.5rem;
+  line-height: 120%;
 }
 
 @media (min-width: 77.5em) {
@@ -1330,6 +1337,10 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .header__left h1 {
+    max-width: 100%;
   }
 
   .header__content h1 {
