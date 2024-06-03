@@ -1025,11 +1025,11 @@ body {
   }
 
   .process__items :nth-child(2).process__item {
-    padding-left: 5.25rem;
+    padding-left: 4.625rem;
   }
 
   .process__items :nth-child(2).process__item {
-    padding-right: 5.25rem;
+    padding-right: 4.625rem;
   }
 
   .process__items :nth-child(3).process__item {
@@ -2272,27 +2272,27 @@ body {
     }
 }
 
-@supports (padding-left: clamp( 1.25rem , -7.6071428571rem  +  14.2857142857vw , 5.25rem )) {
+@supports (padding-left: clamp( 1.25rem , -6.2232142857rem  +  12.0535714286vw , 4.625rem )) {
     .process__items :nth-child(2).process__item {
-      padding-left: clamp( 1.25rem , -7.6071428571rem  +  14.2857142857vw , 5.25rem );
+      padding-left: clamp( 1.25rem , -6.2232142857rem  +  12.0535714286vw , 4.625rem );
     }
 }
 
-@supports not (padding-left: clamp( 1.25rem , -7.6071428571rem  +  14.2857142857vw , 5.25rem )) {
+@supports not (padding-left: clamp( 1.25rem , -6.2232142857rem  +  12.0535714286vw , 4.625rem )) {
     .process__items :nth-child(2).process__item {
-      padding-left: calc(1.25rem + 4 * (100vw - 62rem) / 28);
+      padding-left: calc(1.25rem + 3.375 * (100vw - 62rem) / 28);
     }
 }
 
-@supports (padding-right: clamp( 1.25rem , -7.6071428571rem  +  14.2857142857vw , 5.25rem )) {
+@supports (padding-right: clamp( 1.25rem , -6.2232142857rem  +  12.0535714286vw , 4.625rem )) {
     .process__items :nth-child(2).process__item {
-      padding-right: clamp( 1.25rem , -7.6071428571rem  +  14.2857142857vw , 5.25rem );
+      padding-right: clamp( 1.25rem , -6.2232142857rem  +  12.0535714286vw , 4.625rem );
     }
 }
 
-@supports not (padding-right: clamp( 1.25rem , -7.6071428571rem  +  14.2857142857vw , 5.25rem )) {
+@supports not (padding-right: clamp( 1.25rem , -6.2232142857rem  +  12.0535714286vw , 4.625rem )) {
     .process__items :nth-child(2).process__item {
-      padding-right: calc(1.25rem + 4 * (100vw - 62rem) / 28);
+      padding-right: calc(1.25rem + 3.375 * (100vw - 62rem) / 28);
     }
 }
 
