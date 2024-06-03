@@ -822,10 +822,6 @@ body {
     gap: 2.5rem;
   }
 
-  .footer__content p {
-    font-size: 2.1875rem;
-  }
-
   .process {
     padding-top: 3.4375rem;
   }
@@ -1012,6 +1008,10 @@ body {
     padding-bottom: 9.375rem;
   }
 
+  .footer__content p {
+    font-size: 2.1875rem;
+  }
+
   .footer__content .button {
     font-size: 2.1875rem;
   }
@@ -1080,10 +1080,6 @@ body {
 
   .footer__content {
     gap: 1.875rem;
-  }
-
-  .footer__content p {
-    font-size: 1.25rem;
   }
 
   .process {
@@ -1354,10 +1350,23 @@ body {
         align-self: center;
   }
 
+  .header__content h1 span {
+    background: none;
+  }
+
   .header__content h1 {
     margin-bottom: 0;
     max-width: 100%;
     margin-bottom: 0.1875rem;
+  }
+
+  .header__content h1 b {
+    background: -webkit-gradient(linear, left top, right top, from(#f1c400), to(#ff7f32));
+    background: linear-gradient(90deg, #f1c400 0%, #ff7f32 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
   }
 
   .header__box {
@@ -1381,7 +1390,12 @@ body {
   }
 
   .footer__content p {
+    font-size: 1.25rem;
     text-align: center;
+    max-width: 18.125rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
   }
 
   .footer__content .button {
@@ -1389,8 +1403,8 @@ body {
         -ms-grid-row-align: center;
         align-self: center;
     font-size: 1.0625rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
   }
 
   .no-webp .footer{
@@ -1635,18 +1649,6 @@ body {
 @supports not (gap: clamp( 1.875rem , 1.6622340426rem  +  1.0638297872vw , 2.5rem )) {
     .footer__content {
       gap: calc(1.875rem + 0.625 * (100vw - 20rem) / 58.75);
-    }
-}
-
-@supports (font-size: clamp( 1.25rem , 0.9308510638rem  +  1.5957446809vw , 2.1875rem )) {
-    .footer__content p {
-      font-size: clamp( 1.25rem , 0.9308510638rem  +  1.5957446809vw , 2.1875rem );
-    }
-}
-
-@supports not (font-size: clamp( 1.25rem , 0.9308510638rem  +  1.5957446809vw , 2.1875rem )) {
-    .footer__content p {
-      font-size: calc(1.25rem + 0.9375 * (100vw - 20rem) / 58.75);
     }
 }
 
@@ -2189,6 +2191,18 @@ body {
 @supports not (padding-bottom: clamp( 4.375rem , -1.3392857143rem  +  11.9047619048vw , 9.375rem )) {
     .footer {
       padding-bottom: calc(4.375rem + 5 * (100vw - 48rem) / 42);
+    }
+}
+
+@supports (font-size: clamp( 1.75rem , 1.25rem  +  1.0416666667vw , 2.1875rem )) {
+    .footer__content p {
+      font-size: clamp( 1.75rem , 1.25rem  +  1.0416666667vw , 2.1875rem );
+    }
+}
+
+@supports not (font-size: clamp( 1.75rem , 1.25rem  +  1.0416666667vw , 2.1875rem )) {
+    .footer__content p {
+      font-size: calc(1.75rem + 0.4375 * (100vw - 48rem) / 42);
     }
 }
 
